@@ -1,0 +1,87 @@
+#Tokens
+    smallest unit/element of programming lang.
+
+    Keywords
+    Literals/Constants
+    Identifier
+    Operator
+
+
+    Keywords
+    Keywords are the reserved words in Python. We cannot use the keyword as a variable, function name or any identifiers name.
+    all keywords in lowercase letter except(True, False, None)
+        False	    await	    else	    import	  pass
+        None	    break	    except	  in	      raise
+        True	    class	    finally	  is	      return
+        and	      continue	for	      lambda	  try
+        as	      def	      from	    nonlocal	while
+        assert	  del	      global	  not	      with
+        async	    elif	    if	      or	      yield
+
+    variable:
+        a = 50
+        city = "Bhopal"
+        res = True
+        marks = 20.6
+        a = "John"
+        _enroll = 123456789
+    Literals:
+            any raw value which is assigned in any variable or constant
+    constants:
+            constant a type of variable but with fixed value.
+            there is no scope of constant in python.
+            COLLEGE = "LNCT"
+            CITY = "BHOPAL"
+            COLLEGE = "JNCT"
+
+    Identifiers:
+        A python identifiers is a name used to identify a variable, function,
+        class, module, or any other object.
+
+        rules to declare identifiers name:
+                1. not start with digits[0-9]
+                2. can not contain any space
+                3. can not contain any special character (_)
+                4. should not use keywords in identifiers name.
+                5. class name start with a uppercase letter and all identifiers
+                    with a lowercase letter.
+                6. starting an identifier with a single underscore indicates
+                    that identifier is a private.
+                        _name = "John"
+                7. starting an identifier with two leading underscore indicates
+                    that identifier as strongly private identifier.
+                        __acc = 235698741520
+                8. if the identifier also ends with two trailing underscore, the
+                    identifier is a language-defined special name.
+                        __name__
+
+                
+firstName = "John"
+last_name = "Mathew"
+
+name_of_student_from_mumbai = "John" #snake case
+nameOfStudentFromMumbai = "John" #camel case
+class NameOfStudentFromMumbai: #pascal case
+    pass
+
+##Operators
+1. Arithmetic
+2. comparison/relational
+3. assignment
+4. Logical
+5. bitwise
+6. membership
+7. identity
+
+
+Arithmetic
+    + - * / % **(exponent) //(floor division)
+assignments
+    = += -= *= /= //= %= **=
+relational:
+    == < > <= >= !=
+logical
+    and or not
+
+Bitwise
+    &(and), |(or), ^(xor), <<(left shift), >>(right shift)
